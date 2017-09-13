@@ -8,6 +8,10 @@
     "build:watch": "webpack --watch",
     "start": "nodemon server/index.js"
   },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
   "author": "Tabitha Hsia",
   "license": "ISC",
   "engines": {
