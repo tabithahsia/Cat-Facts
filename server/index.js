@@ -21,6 +21,6 @@ app.get('/getFact', function (req, res) {
   })
 })
 
-app.listen(7485, function () {
+app.listen(port, function () {
   console.log('listening on port TABS');
 })
