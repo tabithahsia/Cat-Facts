@@ -3,6 +3,8 @@ var bodyParser = require('body-parser');
 var db = require('../database/')
 
 var app = express();
+var port = process.env.PORT || 7485;
+
 
 app.use(bodyParser.json() );
 app.use(express.static(__dirname + '/../client/dist'));
