@@ -23127,9 +23127,9 @@ var App = function (_React$Component) {
 
       _axios2.default.get('/getFact').then(function (response) {
         console.log('this is the response', response);
-        console.log('this is the fact', response.data);
+        console.log('this is the fact', response.data.data.fact);
         _this2.setState({
-          catFact: response.data
+          catFact: response.data.data.fact
         });
       }).catch(function (error) {
         console.log(error);
@@ -23142,7 +23142,7 @@ var App = function (_React$Component) {
 
       _axios2.default.get('/getFact').then(function (response) {
         _this3.setState({
-          catFact: response.data
+          catFact: response.data.data.fact
         });
       }).catch(function (error) {
         console.log(error);

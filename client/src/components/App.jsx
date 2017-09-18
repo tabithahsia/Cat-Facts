@@ -17,9 +17,9 @@ class App extends React.Component {
     axios.get('/getFact')
     .then(response => {
       console.log('this is the response', response);
-      console.log('this is the fact', response.data);
+      console.log('this is the fact', response.data.data.fact);
       this.setState({
-        catFact: response.data
+        catFact: response.data.data.fact
       });
     })
     .catch(function(error) {
@@ -31,7 +31,7 @@ class App extends React.Component {
     axios.get('/getFact')
     .then(response => {
       this.setState({
-        catFact: response.data
+        catFact: response.data.data.fact
       });
     })
     .catch(function(error) {

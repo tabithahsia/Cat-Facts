@@ -10,12 +10,12 @@ const connection = 'postgres://localhost:5432/catfacts';
 const db = pgp(connection);
 
 function getRandomFact(req, res, next) {
-  db.one('SELECT * FROM `facts` ORDER BY RAND() LIMIT 1')
+  db.one('SELECT * FROM facts ORDER BY random() LIMIT 1')
     .then(function(data) {
       console.log('this is the data inside getRandomFact', data);
       res.status(200)
         .json({
-          status: 'sucess',
+          status: 'success',
           data: data,
           message: 'retrieve 1 random fact'
         });
@@ -27,6 +27,7 @@ function getRandomFact(req, res, next) {
 }
 
 
+/**** OLD MYSQL CODE ****/
 // var mysql = require('mysql');
 //
 // var connection = mysql.createConnection({
