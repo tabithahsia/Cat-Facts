@@ -7,7 +7,6 @@ const pgp = require('pg-promise')();
 console.log(process.env.DATABASE_URL);
 
 const connection = process.env.DATABASE_URL ||'postgres://localhost:5432/catfacts';
-// const connection = 'postgres://cksndzyuypbwpr:5e1ed153fbd704ebc609334afdb2f60797a2daf3b0dcf0b4f159531787661718@ec2-54-163-254-143.compute-1.amazonaws.com:5432/d55ofvqfb3e4h8'
 
 const db = pgp(connection);
 
