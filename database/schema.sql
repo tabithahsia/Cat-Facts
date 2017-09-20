@@ -23,7 +23,7 @@ INSERT INTO facts (fact) VALUES ('Wikipedia has a recording of a cat meowing bec
 INSERT INTO facts (fact) VALUES ('The world''s largest cat measured 48.5 inches long.');
 INSERT INTO facts (fact) VALUES ('Evidence suggests domesticated cats have been around since 3600 B.C., 2,000 years before Egypt''s pharaohs.');
 INSERT INTO facts (fact) VALUES ('A cat''s purr may be a form of self-healing, as it can be a sign of nervousness as well as contentment.');
-INSERT INTO facts (fact) VALUES ('Similarly, the frequency of a domestic cat''s purr is the same at which muscles and bones repair themselves.');
+INSERT INTO facts (fact) VALUES ('The frequency of a domestic cat''s purr is the same at which muscles and bones repair themselves.');
 INSERT INTO facts (fact) VALUES ('Adult cats only meow to communicate with humans.');
 INSERT INTO facts (fact) VALUES ('The world''s richest cat is worth $13 million after his human passed away and left her fortune to him.');
 INSERT INTO facts (fact) VALUES ('Your cat recognizes your voice but just acts too cool to care (probably because they are).');
