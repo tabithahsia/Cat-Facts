@@ -16,7 +16,16 @@
 body {
   background: url("dorota-dylka-69581.jpg") no-repeat center center fixed;
   background-size: cover;
+  -webkit-background-size: cover; /* For WebKit*/
+  -moz-background-size: cover;    /* Mozilla*/
+  -o-background-size: cover;      /* Opera*/
 }
+
+button {
+   background-color: #555555;
+   font-size: 20px;
+   color: white;
+  } /* Black */
 
 h1 {
   font-family: 'Courgette', cursive;
@@ -40,4 +49,28 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.Demo__some-network__share-button {
+  cursor: pointer;
+}
+
+.Demo__some-network__share-button:hover:not(:active) {
+  opacity: 0.75;
+}
+
+#footer {
+  /*background: none repeat scroll 0 0 transparent;
+   bottom: 0;
+   position: fixed;
+   text-align: center;
+   width: 100%;*/
+   position: fixed;
+   bottom: 0;
+width: 100%;
+}
+
+#center1 {
+    width: 500px;
+    margin: 0 auto;
 }

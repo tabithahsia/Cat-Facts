@@ -28,7 +28,8 @@
     "pg": "^7.3.0",
     "pg-promise": "^6.5.4",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-share": "^1.16.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
