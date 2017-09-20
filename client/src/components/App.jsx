@@ -115,7 +115,7 @@ class App extends React.Component {
           </RedditShareButton>
           </div>
           <div id="center">
-            <h5>Made by <a href="https://tabithahsia.herokuapp.com" target="_blank">Tabitha Hsia</a></h5>
+            <h5>Made by <a href="https://tabithahsia.com" target="_blank">Tabitha Hsia</a></h5>
           </div>
         </div>
         <div>
