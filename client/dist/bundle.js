@@ -23179,7 +23179,7 @@ var App = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      var shareUrl = 'http://catfact.life';
+      var shareUrl = 'http://catfacts.life';
       return _react2.default.createElement(
         'div',
         null,
@@ -23231,11 +23231,6 @@ var App = function (_React$Component) {
               _react2.default.createElement(FacebookIcon, {
                 size: 32,
                 round: true })
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              '     '
             ),
             _react2.default.createElement(
               TwitterShareButton,

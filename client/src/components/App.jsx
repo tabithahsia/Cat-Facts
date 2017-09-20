@@ -74,7 +74,7 @@ class App extends React.Component {
 
 
   render() {
-    const shareUrl = 'http://catfact.life';
+    const shareUrl = 'http://catfacts.life';
     return (
       <div>
         <div className="content">
@@ -98,7 +98,6 @@ class App extends React.Component {
                 size={32}
                 round />
             </FacebookShareButton>
-            <p>     </p>
             <TwitterShareButton className="Demo__some-network"
               url={shareUrl}
               title={this.state.catFact}
