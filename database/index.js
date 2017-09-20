@@ -4,7 +4,6 @@ const initOptions = {
 };
 
 const pgp = require('pg-promise')();
-console.log(process.env.DATABASE_URL);
 
 const connection = process.env.DATABASE_URL ||'postgres://localhost:5432/catfacts';
 

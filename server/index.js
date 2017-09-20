@@ -7,9 +7,9 @@ var port = process.env.PORT || 7485;
 
 
 app.use(bodyParser.json() );
-app.use(express.static(__dirname + '/../client/dist'));
+app.use(express.static(__dirname + '/../client'));
 
-app.get('/getFact', db.getRandomFact)
+app.get('/getFact', db.getRandomFact);
 
 /*** MYSQL version ***/
 // app.get('/getFact', function (req, res) {

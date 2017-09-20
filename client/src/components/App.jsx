@@ -42,11 +42,13 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="content">
         <h1>Welcome to Cat Facts!</h1>
         <h2>Did you know?</h2>
         <Fact fact={this.state.catFact}/>
-        <button onClick={this.getRandomFact}>New Fact</button>
+        <div id="center">
+          <button onClick={this.getRandomFact}>New Fact</button>
+        </div>
       </div>
     );
   }

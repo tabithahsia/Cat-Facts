@@ -1,0 +1,43 @@
+#container { /* currently unused because .content did the centering job better */
+    display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+}
+
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background: url("dorota-dylka-69581.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+#center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

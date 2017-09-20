@@ -23153,7 +23153,7 @@ var App = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        null,
+        { className: 'content' },
         _react2.default.createElement(
           'h1',
           null,
@@ -23166,9 +23166,13 @@ var App = function (_React$Component) {
         ),
         _react2.default.createElement(_Fact2.default, { fact: this.state.catFact }),
         _react2.default.createElement(
-          'button',
-          { onClick: this.getRandomFact },
-          'New Fact'
+          'div',
+          { id: 'center' },
+          _react2.default.createElement(
+            'button',
+            { onClick: this.getRandomFact },
+            'New Fact'
+          )
         )
       );
     }
