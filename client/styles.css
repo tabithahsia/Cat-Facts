@@ -45,6 +45,12 @@ h3 {
   color: white;
 }
 
+h5 {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+
+}
+
 #center {
   display: flex;
   justify-content: center;
@@ -60,17 +66,18 @@ h3 {
 }
 
 #footer {
-  /*background: none repeat scroll 0 0 transparent;
-   bottom: 0;
-   position: fixed;
-   text-align: center;
-   width: 100%;*/
    position: fixed;
    bottom: 0;
-width: 100%;
+   width: 100%;
 }
 
 #center1 {
     width: 500px;
     margin: 0 auto;
+}
+
+#bottomright {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }

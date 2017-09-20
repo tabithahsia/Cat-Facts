@@ -23251,8 +23251,23 @@ var App = function (_React$Component) {
                 size: 32,
                 round: true })
             )
+          ),
+          _react2.default.createElement(
+            'div',
+            { id: 'center' },
+            _react2.default.createElement(
+              'h5',
+              null,
+              'Made by ',
+              _react2.default.createElement(
+                'a',
+                { href: 'https://tabithahsia.herokuapp.com', target: '_blank' },
+                'Tabitha Hsia'
+              )
+            )
           )
-        )
+        ),
+        _react2.default.createElement('div', null)
       );
     }
   }]);

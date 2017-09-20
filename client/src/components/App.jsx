@@ -113,8 +113,13 @@ class App extends React.Component {
               size={32}
               round />
           </RedditShareButton>
-
           </div>
+          <div id="center">
+            <h5>Made by <a href="https://tabithahsia.herokuapp.com" target="_blank">Tabitha Hsia</a></h5>
+          </div>
+        </div>
+        <div>
+
         </div>
       </div>
     );
