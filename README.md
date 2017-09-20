@@ -1,5 +1,5 @@
 # Cat-Facts
-Cat Fact Generator
+Cat Fact Generator 🐱
 
 An app all about cat facts!
 
