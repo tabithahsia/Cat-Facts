@@ -11,4 +11,4 @@ An app all about cats!
 - [ReactJS](https://reactjs.org/)
 - [Node](https://nodejs.org/en/)
 - [Express](http://expressjs.com/)
-- [PostgreSQL] (https://www.postgresql.org/)
+- [PostgreSQL](https://www.postgresql.org/)
