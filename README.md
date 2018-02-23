@@ -5,7 +5,7 @@ An app all about cats!
 
 ## Usage
 
-> Go to https://catfacts.life 
+> Go to http://catfacts.life 
 
 ## Stack
 - [ReactJS](https://reactjs.org/)
